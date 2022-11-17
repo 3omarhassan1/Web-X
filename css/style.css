@@ -173,6 +173,7 @@ header {
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  margin-left: auto;
 }
 
 header::after {
@@ -378,7 +379,7 @@ header ul li:hover::before {
 }
 
 @media (max-width:767px) {
-  .landing .container .content{
+  .landing .container .content {
     padding: 5px;
   }
 }
@@ -464,7 +465,7 @@ header ul li:hover::before {
   letter-spacing: 0px;
 }
 
-.container .box .content .icon {
+.services .container .box .content .icon {
   /* text-align: center; */
   color: var(--clr);
   width: 80px;
@@ -479,13 +480,13 @@ header ul li:hover::before {
   border-radius: 15px;
 }
 
-.container .box:hover .content .icon {
+.services .container .box:hover .content .icon {
   background: var(--clr);
   color: var(--bgColor-2);
   box-shadow: 0 0 0 4px var(--bgColor-2), 0 0 0 500px var(--clr);
 }
 
-.container .box .content h3 {
+.services .container .box .content h3 {
   font-size: 24px;
   color: var(--textColor);
   font-weight: 500;
@@ -495,22 +496,22 @@ header ul li:hover::before {
   letter-spacing: 0px;
 }
 
-.container .box:hover .content h3 {
-  color: var(--bgColor-2);
+.services .container .box:hover .content h3 {
+  color: black;
 }
 
-.container .box .content p {
+.services .container .box .content p {
   color: var(--textColor);
   transition: var(--trans) ease-in-out;
   margin-bottom: 20px;
 }
 
-.container .box:hover .content p {
-  color: var(--bgColor-2);
+.services .container .box:hover .content p {
+  color: black;
   letter-spacing: 0px;
 }
 
-.container .box .content a {
+.services .container .box .content a {
   position: relative;
   background: var(--clr);
   color: var(--bgColor-2);
@@ -526,7 +527,7 @@ header ul li:hover::before {
   letter-spacing: -1px;
 }
 
-.container .box:hover .content a {
+.services .container .box:hover .content a {
   background: var(--bgColor-2);
   color: var(--clr);
 }
