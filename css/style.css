@@ -584,17 +584,18 @@ header ul li:hover::before {
 
 .contact-us .box {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
 .contact-us .box .text {
   flex-basis: 60%;
-  font-size: 20px;
+  font-size: 28px;
 }
 
 .contact-us .box .img {
   flex-basis: 40%;
+  /* max-width: 250px; */
 }
 
 @media (max-width: 767px) {
